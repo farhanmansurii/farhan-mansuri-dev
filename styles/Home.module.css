@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Ogg";
+  src: url("../styles/fonts/Ogg-Bold.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Founders";
+  src: url("../styles/fonts/Founders_Grotesk/FoundersGrotesk-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
