@@ -6,7 +6,6 @@ import {
   Link,
   Stack,
   useColorModeValue,
-  useColorMode,
   Text,
   Flex,
 } from "@chakra-ui/react";
@@ -14,7 +13,7 @@ import * as React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
-export const Footer = () => (
+const Footer = () => (
   <Container centerContent>
     <Flex
       pt={{ base: "10", md: "14" }}
@@ -80,3 +79,4 @@ export const Footer = () => (
     </Stack>
   </Container>
 );
+export default Footer;
