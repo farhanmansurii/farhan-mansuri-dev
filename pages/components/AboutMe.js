@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { FadeIn } from "react-animated-components";
 import ContactMe from "./ContactMe";
-import { Skills } from "./skills/Skills";
+import Skills from "./skills/Skills";
 const AboutMe = () => {
   return (
     <FadeIn

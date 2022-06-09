@@ -12,8 +12,7 @@ import {
 import * as React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-
-const Footer = () => (
+export const Footer = () => {
   <Container centerContent>
     <Flex
       pt={{ base: "10", md: "14" }}
@@ -77,6 +76,5 @@ const Footer = () => (
         &copy; 2022 designed & coded with ♥ by farhan mansuri
       </Text>
     </Stack>
-  </Container>
-);
-export default Footer;
+  </Container>;
+};
