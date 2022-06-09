@@ -1,11 +1,4 @@
-import {
-  Box,
-  Container,
-  ListItem,
-  Text,
-  Flex,
-  useColorModeValue,
-} from "@chakra-ui/layout";
+import { Box, Container, Text, Flex } from "@chakra-ui/layout";
 
 import { IconButton } from "@chakra-ui/react";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
@@ -13,8 +6,6 @@ import Tilt from "react-parallax-tilt";
 
 import PropTypes from "prop-types";
 import { Image } from "@chakra-ui/react";
-
-import React from "react";
 
 const projectCard = () => ({
   snapshot,
@@ -74,7 +65,7 @@ const projectCard = () => ({
   );
 };
 
-ProjectCard.propTypes = {
+projectCard.propTypes = {
   snapshot: PropTypes.element,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

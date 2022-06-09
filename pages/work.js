@@ -7,7 +7,7 @@ import {
   Flex,
   Container as ChakraContainer,
 } from "@chakra-ui/layout";
-import { ProjectCard } from "./components/projectCard";
+import { projectCard } from "./components/projectCard";
 import projects from "./components/data/projects";
 import { FadeIn } from "react-animated-components";
 import Head from "next/dist/shared/lib/head";
@@ -54,7 +54,7 @@ const ProjectList = () => {
     >
       <Flex display={{ base: "block", "2xl": "flex" }}>
         {projects.map((project) => (
-          <ProjectCard
+          <projectCard
             snapshot={project.snapshot}
             title={project.title}
             description={project.description}
