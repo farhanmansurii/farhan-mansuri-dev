@@ -10,12 +10,13 @@ import {
 import { IconButton } from "@chakra-ui/react";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import Tilt from "react-parallax-tilt";
-import farhan from "./images/farhan.jpg";
-import unsplash from "./images/unsplash.png";
+
 import PropTypes from "prop-types";
 import { Image } from "@chakra-ui/react";
 
-export const ProjectCard = ({
+import React from "react";
+
+const projectCard = () => ({
   snapshot,
   logo,
   title,
@@ -82,3 +83,5 @@ ProjectCard.propTypes = {
   proto: PropTypes.string,
   repo: PropTypes.string.isRequired,
 };
+
+export default projectCard;
