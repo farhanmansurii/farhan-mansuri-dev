@@ -8,7 +8,7 @@ import {
   Container as ChakraContainer,
 } from "@chakra-ui/layout";
 import { ProjectCard } from "./components/projectCard";
-import projects from "./components/data/projectData";
+import projects from "./components/data/projects";
 import { FadeIn } from "react-animated-components";
 import Head from "next/dist/shared/lib/head";
 const Projects = () => {

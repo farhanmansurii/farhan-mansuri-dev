@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projects from "./data/projectData";
+import projects from "./data/projects";
 import { ProjectCard } from "./projectCard";
 import Link from "next/link";
 import { Flex, Text, useColorModeValue } from "@chakra-ui/react";

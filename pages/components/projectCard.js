@@ -6,6 +6,7 @@ import {
   Flex,
   useColorModeValue,
 } from "@chakra-ui/layout";
+
 import { IconButton } from "@chakra-ui/react";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import Tilt from "react-parallax-tilt";
