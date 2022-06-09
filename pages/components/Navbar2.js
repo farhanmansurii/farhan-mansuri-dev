@@ -3,7 +3,6 @@ import {
   Box,
   Flex,
   Text,
-  Link,
   Button,
   Menu,
   MenuButton,
@@ -20,7 +19,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import NextLink from "next/link";
+import Link from "next/link";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 export default function Nav() {
@@ -53,14 +52,14 @@ export default function Nav() {
               gap={4}
               mr={5}
             >
-              <Link href="/">&lt;Home/&gt;</Link>
-              <Link href="/about">&lt;About/&gt;</Link>
-              <Link href="/work">&lt;MyWorks/&gt;</Link>
+              <Link href="/">HOME</Link>
+              <Link href="/about">ABOUT</Link>
+              <Link href="/work">WORKS</Link>
               <Link
                 href="https://drive.google.com/file/d/1I6xWNMNJLKV6A_qhthHE5YbBKcKzJ5vU/view?usp=sharing"
                 target="_blank"
               >
-                &lt;MyCV/&gt;
+                MyCV
               </Link>
             </Flex>
             <Stack direction={"row"} spacing={7}>
@@ -86,22 +85,21 @@ export default function Nav() {
                   aria-label="Options"
                 />
                 <MenuList>
-                  <NextLink href="/" ml="">
-                    <MenuItem as={Link}>&lt;Home/&gt;</MenuItem>
-                  </NextLink>
-                  <NextLink href="/about" passHref>
-                    <MenuItem as={Link}>&lt;About/&gt;</MenuItem>
-                  </NextLink>
-                  <NextLink href="/work" passHref>
-                    <MenuItem as={Link}>&lt;Works/&gt;</MenuItem>
-                  </NextLink>
-                  <NextLink
+                  <Link href="/" ml="">
+                    <MenuItem>HOME</MenuItem>
+                  </Link>
+                  <Link href="/about" passHref>
+                    <MenuItem>ABOUT</MenuItem>
+                  </Link>
+                  <Link href="/work" passHref>
+                    <MenuItem>WORKS</MenuItem>
+                  </Link>
+                  <Link
                     href="https://drive.google.com/file/d/1I6xWNMNJLKV6A_qhthHE5YbBKcKzJ5vU/view?usp=sharing"
                     target="_blank"
-                    passHref
                   >
-                    <MenuItem as={Link}>&lt;MyCV/&gt;</MenuItem>
-                  </NextLink>
+                    <MenuItem>MyCV</MenuItem>
+                  </Link>
                 </MenuList>
               </Menu>
             </Stack>

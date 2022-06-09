@@ -17,7 +17,7 @@ const Projects = () => {
       <Head>
         <title>My Works</title>
       </Head>
-      <Flex flexWrap="wrap" my="4rem" direction="row" justify="space-around" al>
+      <Flex flexWrap="wrap" py="4rem" direction="row" justify="space-around" al>
         <Intro />
       </Flex>
     </>
@@ -35,7 +35,7 @@ const Intro = () => {
         fontWeight="bolder"
         align="center"
       >
-        Projects I've done !
+        Projects I&apos;ve done !
       </Text>
 
       <ProjectList />

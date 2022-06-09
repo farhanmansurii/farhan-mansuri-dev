@@ -28,14 +28,17 @@ export default function Hero() {
         <Text
           mt="5rem"
           mb="3rem"
-          p="0.5rem"
+          pt="0.5rem"
+          pb="0.3rem"
           align="center"
           borderRadius="xl"
           bg={useColorModeValue("#ffb07b", "#cf4c2e")}
           color={useColorModeValue("#fffef8", "#141414")}
-          mx="10%"
+          mx="20%"
+          fontSize="lg"
+          fontFamily="Founders Grotesk"
         >
-          hi I'm a web developer based in Mumbai , India
+          hi I&apos;m a web developer based in Mumbai , India
         </Text>
         <Container
           centerContent
@@ -60,7 +63,7 @@ export default function Hero() {
                 fontWeight="extrabold"
                 textTransform="uppercase"
                 letterSpacing="1px"
-                color={useColorModeValue("#c3e3d1", "ffb07b")}
+                color={useColorModeValue("#94B49F", "ffb07b")}
               >
                 Digital Craftsman(sometimes artist / web developer/ <br />
                 software tester)

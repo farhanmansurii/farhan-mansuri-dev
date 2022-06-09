@@ -131,20 +131,14 @@ export default function ContactMe() {
                       <FormControl id="name">
                         <FormLabel>Your Name</FormLabel>
                         <InputGroup>
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<BsPerson />}
-                          />
+                          <InputLeftElement pointerEvents="none" />
                           <Input type="text" size="sm" />
                         </InputGroup>
                       </FormControl>
                       <FormControl id="name">
                         <FormLabel>Mail</FormLabel>
                         <InputGroup>
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<MdOutlineEmail />}
-                          />
+                          <InputLeftElement pointerEvents="none" />
                           <Input type="text" size="md" />
                         </InputGroup>
                       </FormControl>

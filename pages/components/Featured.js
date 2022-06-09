@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projects from "./data/projectData";
 import { ProjectCard } from "./projectCard";
+import Link from "next/link";
 import { Flex, Text, useColorModeValue } from "@chakra-ui/react";
 export default function Featured() {
   return (
@@ -37,7 +38,7 @@ export default function Featured() {
         align="center"
         borderRadius="xl"
       >
-        <a href="/work">View more of my work</a>
+        <Link href="/work">View more of my work</Link>
       </Text>
     </Flex>
   );

@@ -29,7 +29,12 @@ export const ProjectCard = ({
     <Container w="sm" pb="3rem">
       <Tilt>
         <Box w="full" mb="1rem">
-          <Image src={snapshot} w="full" borderRadius="xl" />
+          <Image
+            src={snapshot}
+            w="full"
+            borderRadius="xl"
+            alt="Project Image"
+          />
         </Box>
       </Tilt>
       <Box>
@@ -46,14 +51,14 @@ export const ProjectCard = ({
             </Text>
           </Flex>
           <Flex gap={"1rem"}>
-            <a href={repo} target="_blank">
+            <a href={repo}>
               <IconButton
                 size="xs"
                 variant="ghost"
                 icon={<AiFillGithub size="sm" />}
               />
             </a>
-            <a href={live} target="_blank">
+            <a href={live}>
               <IconButton
                 size="xs"
                 variant="ghost"

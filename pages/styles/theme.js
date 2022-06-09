@@ -3,13 +3,14 @@ import "@fontsource/domine";
 import "@fontsource/work-sans";
 import "@fontsource/poppins";
 import "@fontsource/space-mono";
+import { mode } from "@chakra-ui/theme-tools";
 import { useColorModeValue } from "@chakra-ui/react";
 const styles = {
   global: (props) => ({
     body: {
-      fontFamily: "poppins",
-      backgroundColor: useColorModeValue("#fffef8", "#141414"),
-      textColor: useColorModeValue("#00453d", "#9c795d"),
+      fontFamily: "Founders Grotesk",
+      color: mode("#446A46", "#e3cab6")(props),
+      bg: mode("#EFEAD8", "#141414")(props),
     },
   }),
 };

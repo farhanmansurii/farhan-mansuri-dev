@@ -1,11 +1,9 @@
-import { ChakraProvider, Spacer } from "@chakra-ui/react";
-import "/Users/Administrator/Downloads/finalv4/my-app/styles/globals.css";
+import { ChakraProvider, Container, Spacer, Box } from "@chakra-ui/react";
+import "./styles/globals.css";
 import { Footer } from "./components/Footer";
-import theme from "../styles/theme";
+import theme from "./styles/theme";
 import Nav from "./components/Navbar2";
-import { AnimatePresence } from "framer-motion";
-import Head from "next/head";
-import { FadeIn, SlideInUp } from "react-animated-components";
+import { useColorModeValue } from "@chakra-ui/react";
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>

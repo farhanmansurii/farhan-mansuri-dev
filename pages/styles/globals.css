@@ -7,7 +7,7 @@ body {
 }
 @font-face {
   font-family: "Ogg";
-  src: url("./fonts/Ogg-Regular.woff") format("woff");
+  src: url("./fonts/Ogg-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "Founders Grotesk";
