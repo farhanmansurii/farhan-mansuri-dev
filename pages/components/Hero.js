@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 import { FadeIn } from "react-animated-components";
 import Newsletter from "./Newsletter";
 import { ProjectCard } from "./projectCard";
-import projects from "./data/projectData";
+import projects from "./data/projects";
 import Featured from "./Featured";
 const Spline = dynamic(() => import("@splinetool/react-spline"), {
   ssr: false,
